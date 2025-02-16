@@ -1,0 +1,256 @@
+body
+{
+    background-color: cornsilk;
+}
+h1 {
+    color: brown;
+}
+
+/* Navigator */
+nav {
+    background: linear-gradient(to right, #4CAF50, #45a049);
+    padding: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#first {
+    float:left;
+    width: 10%;
+    height: 100%;
+    background-color: darkgray;
+}
+
+#first #firsta {
+    float:top;
+    height:50%;
+    width:100%;
+    background-color: honeydew;
+}
+
+#first #firstb {
+    float:top;
+    height:50%;
+    width:100%;
+    background-color:lavender;
+}
+
+#second {
+    float: left;
+    width: 80%;
+    height: 100%;
+    background-color:gainsboro;
+}
+
+#third {
+    float:left;
+    width: 10%;
+    height: 100%;
+    background-color: darkgray;
+}
+
+#third #thirda {
+    float:top;
+    height:50%;
+    width:100%;
+    background-color: honeydew;
+}
+
+#third #thirdb {
+    float:top;
+    height:50%;
+    width:100%;
+    background-color:lavender;
+}
+
+.news table {
+    margin: 1%;
+    padding: 0;
+    border: 0;
+    width: 95%;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.news thead {
+    color: white;
+    background-color:purple;
+}
+
+.news tbody {
+    overflow: hidden;
+    color: purple;
+    text-align: center;
+    margin: 10px;
+    background-color:white;
+}
+
+.news thead th {
+    display: block;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.news td {
+    display: block;
+    color: purple;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.news td:hover {
+    background-color:thistle;
+}
+
+/* table basic style */
+table {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Set different color scheme for different categories */
+tr[data-category="Food"] {
+    background-color: #ffebee;
+}
+
+tr[data-category="Housing"] {
+    background-color: #e3f2fd;
+}
+
+tr[data-category="Transportation"] {
+    background-color: #f3e5f5;
+}
+
+tr[data-category="Shopping"] {
+    background-color: #e8f5e9;
+}
+
+tr[data-category="Entertainment"] {
+    background-color: #fff3e0;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+}
+
+/* form style */
+.form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="date"],
+.form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* action button style */
+.action-buttons {
+    white-space: nowrap;
+}
+
+.update-btn, .delete-btn {
+    padding: 6px 12px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.update-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.update-btn:hover {
+    background-color: #1976D2;
+}
+
+.delete-btn:hover {
+    background-color: #D32F2F;
+}
